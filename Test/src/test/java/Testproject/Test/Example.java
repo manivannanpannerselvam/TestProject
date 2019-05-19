@@ -2,7 +2,7 @@ package Testproject.Test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.annotations.Test;
 
 
@@ -31,7 +31,7 @@ public class Example
 		
 		driver.get("https://akt-on.com/aml2/Account/Login?ReturnUrl=%2Faml2%2FChallenge%2FBoard");
 		
-		System.out.println("welcome");
+		System.out.println("welcomejj");
 	}
 
 }
