@@ -31,7 +31,7 @@ public class Example
 		
 		driver.get("https://akt-on.com/aml2/Account/Login?ReturnUrl=%2Faml2%2FChallenge%2FBoard");
 		
-		
+		System.out.println("welcome");
 	}
 
 }
