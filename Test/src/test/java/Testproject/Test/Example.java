@@ -28,6 +28,10 @@ public class Example
 		
 		System.out.println("Url name on the list" +url);
 		
+		String username=System.getProperty("username");
+		
+		System.out.println("welcome to india ---> my name is ----> " +username);
+		
 		
 		driver.get(url);
 		

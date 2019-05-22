@@ -52,6 +52,7 @@
     <configuration>
     <systemPropertyvariable>
         <url>${url}</url>
+        <name>${name}</name>
     </systemPropertyvariable>
     </configuration>
     <suiteXmlFiles>
