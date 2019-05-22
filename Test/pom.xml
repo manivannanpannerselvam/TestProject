@@ -52,7 +52,11 @@
     <configuration>
     <systemPropertyvariable>
         <url>${url}</url>
-        <name>${name}</name>
+    </systemPropertyvariable>
+    </configuration>
+     <configuration>
+    <systemPropertyvariable>
+        <url>${name}</url>
     </systemPropertyvariable>
     </configuration>
     <suiteXmlFiles>
