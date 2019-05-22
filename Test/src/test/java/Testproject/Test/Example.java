@@ -28,9 +28,9 @@ public class Example
 		
 		System.out.println("Url name on the list" +url);
 		
-		String username=System.getProperty("username");
+		String name=System.getProperty("name");
 		
-		System.out.println("welcome to india ---> my name is ----> " +username);
+		System.out.println("welcome to india ---> my name is ----> " +name);
 		
 		
 		driver.get(url);
