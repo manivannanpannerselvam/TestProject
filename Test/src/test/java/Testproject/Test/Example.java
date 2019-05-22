@@ -24,12 +24,12 @@ public class Example
 		
 		WebDriver driver=new ChromeDriver();
 		
-		//String url=System.getProperty("url");
+		String url=System.getProperty("url");
 		
-		//System.out.println("Url name on the list" +url);
+		System.out.println("Url name on the list" +url);
 		
 		
-		driver.get("https://akt-on.com/aml2/Account/Login?ReturnUrl=%2Faml2%2FChallenge%2FBoard");
+		driver.get(url);
 		
 		System.out.println("welcomejj");
 		
